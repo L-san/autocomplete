@@ -6,11 +6,9 @@ import java.util.List;
 
 public class ProcessHandler {
 
-    private static final String PATH = "C:/airports.csv";
-
-    public static void handle(String pattern, int nCol) {
+    public static void handle(String pattern, int nCol, String path) {
         long start = System.currentTimeMillis();
-        List<String> list = CSVSearch.search(PATH, nCol, pattern);
+        List<String> list = CSVSearch.search(path, nCol, pattern);
         long stop = System.currentTimeMillis();
         for (String s : list) {
             System.out.println(s);

@@ -1,4 +1,5 @@
 ru\lsan\renue\autocomplete\io\CSVSearch.class
+ru\lsan\renue\autocomplete\loader\CSVYandexDiskLoader.class
 ru\lsan\renue\autocomplete\handler\comparators\DigitsComparator.class
 ru\lsan\renue\autocomplete\handler\ProcessHandler.class
 ru\lsan\renue\autocomplete\utils\Utils.class
