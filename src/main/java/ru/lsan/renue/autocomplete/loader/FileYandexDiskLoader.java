@@ -6,7 +6,7 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class CSVYandexDiskLoader {
+public class FileYandexDiskLoader {
 
     public static void getFile(String link, String outputFile) throws IOException {
         String baseURL = "https://cloud-api.yandex.net/v1/disk/public/resources/download?";

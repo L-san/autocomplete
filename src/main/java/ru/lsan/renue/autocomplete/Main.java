@@ -1,7 +1,7 @@
 package ru.lsan.renue.autocomplete;
 
 import ru.lsan.renue.autocomplete.handler.ProcessHandler;
-import ru.lsan.renue.autocomplete.loader.CSVYandexDiskLoader;
+import ru.lsan.renue.autocomplete.loader.FileYandexDiskLoader;
 import ru.lsan.renue.autocomplete.statemachine.StateEnum;
 
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         String filePath = "airports.csv";
-        CSVYandexDiskLoader.getFile("https://disk.yandex.ru/i/g1riHSgEntfLYQ", filePath); //cкачать файл
+        FileYandexDiskLoader.getFile("https://disk.yandex.ru/i/g1riHSgEntfLYQ", filePath); //cкачать файл
 
         Scanner scanner = new Scanner(System.in);
         int nCol = 0;
